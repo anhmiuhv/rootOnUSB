@@ -8,7 +8,7 @@ This procedure should be done on a fresh install of the SD card using JetPack 4.
 
 Next, copy the rootfs of the eMMC/SD card to the USB
 ```
-$ ./copy-rootfs-ssd.sh
+$ ./copy-rootfs-usb.sh
 ```
 
 Then, setup the service. This will copy the .service file to the correct location, and install a startup script to set the rootfs to the USB.
